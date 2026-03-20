@@ -131,7 +131,7 @@ Every section is designed to guide attention toward **thinking, systems, and imp
 
 [View Portfolio](#)
 
-*(Deploy link to be added)*
+[ https://portfolio-one-chi-j9p8cp8zrb.vercel.app ]
 
 ---
 

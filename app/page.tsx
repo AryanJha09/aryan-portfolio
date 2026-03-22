@@ -18,6 +18,31 @@ export default function Home() {
 
       <div className="section-divider" />
 
+      {/* RESEARCH HIGHLIGHT */}
+<section className="max-w-4xl mx-auto px-6 py-20">
+
+  <div className="border border-gray-200 rounded-xl p-8 text-center">
+
+    <p className="text-sm text-gray-500 mb-4">
+      Research Insight
+    </p>
+
+    <h2 className="text-2xl md:text-3xl font-semibold text-gray-900 leading-snug">
+      LLMs don’t fail at decisions — they fail at knowing when to stop reasoning.
+    </h2>
+
+    <p className="text-gray-600 mt-4 max-w-2xl mx-auto leading-relaxed">
+      My research focuses on understanding how models handle epistemic uncertainty. 
+      I design evaluation frameworks that surface failure modes in reasoning, 
+      rather than just measuring output accuracy.
+    </p>
+
+  </div>
+
+</section>
+
+<div className="section-divider" />
+
       {/* FEATURED WORK */}
 <section className="max-w-6xl mx-auto px-6 py-20">
 

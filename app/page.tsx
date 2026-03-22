@@ -58,26 +58,37 @@ export default function Home() {
   <div className="grid md:grid-cols-2 gap-6">
 
     {/* LLM Research Feature */}
-    <div className="border border-gray-200 rounded-xl p-6 hover:-translate-y-1 transition">
-      <h3 className="text-lg font-medium text-gray-900">
-        LLM Decision Pipeline Reliability
-      </h3>
+    {/* RESEARCH HIGHLIGHT */}
+<section className="max-w-4xl mx-auto px-6 py-20">
 
-      <p className="text-sm text-gray-600 mt-2">
-        A diagnostic framework for evaluating how language models behave under epistemic uncertainty, focusing on reasoning behavior, assumption generation, and decision reliability.
+  <a href="/research" className="block group">
+    <div className="border border-gray-200 rounded-xl p-8 text-center transition hover:-translate-y-1">
+
+      <p className="text-sm text-gray-500 mb-4">
+        Research Insight
       </p>
 
-      <div className="mt-4 text-sm text-gray-500">
-        Research · Evaluation Systems · LLMs
-      </div>
+      <h2 className="text-2xl md:text-3xl font-semibold text-gray-900 leading-snug">
+        LLMs don’t fail at decisions — they fail at knowing when to stop reasoning.
+      </h2>
 
-      <a
-        href="/research"
-        className="inline-block mt-4 text-sm text-gray-900 font-medium"
-      >
+      <p className="text-gray-600 mt-4 max-w-2xl mx-auto leading-relaxed">
+        My research focuses on understanding how models handle epistemic uncertainty. 
+        I design evaluation frameworks that surface failure modes in reasoning, 
+        rather than just measuring output accuracy.
+      </p>
+
+      {/* subtle CTA */}
+      <p className="mt-6 text-sm text-gray-900 font-medium">
         View Research →
-      </a>
+      </p>
+
     </div>
+  </a>
+
+</section>
+
+<div className="section-divider" />
 
     {/* Deepfake Project Feature */}
     <div className="border border-gray-200 rounded-xl p-6 hover:-translate-y-1 transition">

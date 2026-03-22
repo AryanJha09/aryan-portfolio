@@ -1,6 +1,5 @@
 "use client";
 
-import { motion } from "framer-motion";
 import Link from "next/link";
 
 interface ProjectProps {
@@ -19,10 +18,8 @@ export default function ProjectCard({
 }: ProjectProps) {
   return (
     <Link href={`/projects/${slug}`} className="block">
-      <motion.div
-        whileHover={{ y: -4 }}
-        className="bg-white border border-gray-200 rounded-xl p-6 transition-all duration-300 cursor-pointer"
-      >
+      <div className="bg-white border border-gray-200 rounded-xl p-6 transition hover:-translate-y-1 cursor-pointer">
+
         <h3 className="text-lg font-semibold tracking-tight mb-2">
           {title}
         </h3>
@@ -43,7 +40,8 @@ export default function ProjectCard({
             ))}
           </div>
         )}
-      </motion.div>
+
+      </div>
     </Link>
   );
 }

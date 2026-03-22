@@ -46,14 +46,14 @@ export default function Home() {
       {/* FEATURED WORK */}
 <section className="max-w-6xl mx-auto px-6 py-20">
 
-  <div className="mb-10">
-    <h2 className="text-2xl font-semibold text-gray-900">
-      Featured Work
-    </h2>
-    <p className="text-gray-600 mt-2 max-w-2xl">
-      Selected work focused on building reliable AI systems and evaluating model behavior under real-world constraints.
-    </p>
-  </div>
+  <div className="mb-10 text-center">
+  <h2 className="text-2xl font-semibold text-gray-900">
+    Featured Work
+  </h2>
+  <p className="text-gray-600 mt-2 max-w-2xl mx-auto">
+    Selected work focused on building reliable AI systems and evaluating model behavior under real-world constraints.
+  </p>
+</div>
 
   <div className="grid md:grid-cols-2 gap-6">
 

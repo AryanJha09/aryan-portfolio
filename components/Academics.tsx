@@ -62,6 +62,15 @@ export default function Academics() {
               </p>
             </div>
 
+            <div className="border border-gray-200 rounded-xl p-6">
+                <h3 className="text-lg font-medium text-gray-900">
+                    IEEE SMC Student Chapter
+                </h3>
+                <p className="text-gray-600 mt-2">
+                    Graphic Designer · Designed visual assets and branding for technical initiatives and events.
+                </p>
+            </div>
+
           </div>
         </div>
 

@@ -34,47 +34,38 @@ export default function Hero() {
         </p>
 
         {/* ACTIONS */}
-        <div className="flex justify-center gap-4 mt-12 flex-wrap">
+<div className="mt-12 flex justify-center">
+  <div className="flex gap-4 flex-wrap justify-center items-center">
 
-          <a
-            href="/research"
-            className="px-6 py-3 rounded-md border border-gray-300 hover:border-gray-500 transition"
-          >
-            Research
-          </a>
+    {/* LEFT */}
+    <a
+      href="mailto:aryanjha.delhi@gmail.com"
+      className="px-6 py-3 rounded-xl border border-gray-200 text-sm font-medium text-gray-900 hover:-translate-y-1 transition"
+    >
+      Get in Touch
+    </a>
 
-          <a
-            href="/projects"
-            className="px-6 py-3 rounded-md border border-gray-300 hover:border-gray-500 transition"
-          >
-            Projects
-          </a>
+    {/* CENTER (PRIMARY) */}
+    <a
+      href="/cv.pdf"
+      target="_blank"
+      className="px-6 py-3 rounded-xl border border-gray-300 text-sm font-medium text-gray-900 hover:-translate-y-1 transition"
+    >
+      View Resume
+    </a>
 
-          <a
-            href="/cv.pdf"
-            target="_blank"
-            className="px-6 py-3 rounded-md border border-gray-300 hover:border-gray-500 transition"
-          >
-            View Resume
-          </a>
+    {/* RIGHT */}
+    <a
+      href="https://github.com/AryanJha09"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="px-6 py-3 rounded-xl border border-gray-200 text-sm font-medium text-gray-900 hover:-translate-y-1 transition"
+    >
+      GitHub
+    </a>
 
-          <a
-            href="mailto:aryanjha.delhi@gmail.com"
-            className="px-6 py-3 rounded-md border border-gray-300 hover:border-gray-500 transition"
-          >
-            Get in Touch
-          </a>
-
-          <a
-            href="https://github.com/AryanJha09"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="px-6 py-3 rounded-md border border-gray-300 hover:border-gray-500 transition"
-          >
-            GitHub
-          </a>
-
-        </div>
+  </div>
+</div>
 
       </div>
 
